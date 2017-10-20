@@ -28,7 +28,7 @@ def main():
     messageList = []
 
     #get user input
-    userIn = input('Enter your message:\n>>>')     
+    userIn = raw_input('Enter your message:\n>>>')     
     message = leadingBlanks + userIn + leadingBlanks
     messageList = list(message)
 
